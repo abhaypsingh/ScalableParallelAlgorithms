@@ -165,7 +165,7 @@ namespace ParsingOneTerabyteOfText
                 }
             }
 
-            public  void GetTopCounts(ref List<TrieNode> most_counted, ref int distinct_word_count, ref int total_word_count)
+            public  void GetTopCounts(ref List<TrieNode> most_counted, ref int distinct_word_count, ref int total_word_count) 
             {
                 if (m_word_count > 0)
                 {
